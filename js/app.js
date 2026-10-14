@@ -64,6 +64,21 @@ function renderProfile() {
   const { personal } = CV_DATA;
 
   // Text Bindings
+  const marqueeEl = document.querySelector('.neo-marquee-content');
+  if (marqueeEl && personal.marquee) {
+    marqueeEl.textContent = personal.marquee;
+  }
+
+  const badgeRoleEl = document.querySelector('.brand-sub');
+  if (badgeRoleEl && personal.badgeRole) {
+    badgeRoleEl.textContent = personal.badgeRole;
+  }
+
+  const headlineEl = document.querySelector('.hero-headline');
+  if (headlineEl && personal.headline) {
+    headlineEl.innerHTML = `${personal.headline} <span class="hero-highlight-tag">${personal.headlineHighlight || ''}</span>`;
+  }
+
   const statusEl = document.getElementById('status-badge-text');
   if (statusEl) statusEl.textContent = `STATUS: ${personal.status.toUpperCase()}`;
 
@@ -78,6 +93,22 @@ function renderProfile() {
 
   const pLoc = document.getElementById('profile-location-text');
   if (pLoc) pLoc.textContent = personal.location;
+
+  // Contact section bindings
+  if (CV_DATA.contact) {
+    const ctaCard = document.querySelector('.cta-neo-card');
+    if (ctaCard) {
+      const h2 = ctaCard.querySelector('h2');
+      const p = ctaCard.querySelector('p');
+      const emailBtnSpan = ctaCard.querySelector('.action-copy-email span');
+      const pdfBtnSpan = ctaCard.querySelector('.action-print-cv span');
+
+      if (h2 && CV_DATA.contact.title) h2.textContent = CV_DATA.contact.title;
+      if (p && CV_DATA.contact.desc) p.textContent = CV_DATA.contact.desc;
+      if (emailBtnSpan && CV_DATA.contact.buttonEmailText) emailBtnSpan.textContent = CV_DATA.contact.buttonEmailText;
+      if (pdfBtnSpan && CV_DATA.contact.buttonPdfText) pdfBtnSpan.textContent = CV_DATA.contact.buttonPdfText;
+    }
+  }
 
   const avatar = document.getElementById('avatar-image');
   if (avatar && personal.avatar) {

@@ -11,6 +11,10 @@ const CV_DATA = {
     name: "Muhammad Ibadurrahman",
     nickname: "Ibad",
     title: "Senior UI/UX Designer & Full-Stack Engineer",
+    badgeRole: "UI/UX & FULL-STACK",
+    marquee: "✦ SENIOR UI/UX DESIGNER ✦ FULL-STACK DEVELOPER ✦ DESIGN SYSTEMS & FIGMA TOKENS ✦ CORE WEB VITALS 100 ✦ BASED IN INDONESIA ✦ AVAILABLE FOR GLOBAL REMOTE ✦",
+    headline: "Membangun produk digital presisi dengan sentuhan",
+    headlineHighlight: "UI/UX & Kode Bersih",
     subtitle: "Architecting intuitive user experiences backed by resilient, high-performance code.",
     status: "Available for Senior Roles & Remote Opportunities",
     statusType: "available", // available | busy
@@ -246,5 +250,12 @@ const CV_DATA = {
       role: "Chief Technology Officer, FinFlow",
       avatar: "SR"
     }
-  ]
+  ],
+
+  contact: {
+    title: "Tertarik Berkolaborasi?",
+    desc: "Saya terbuka untuk mendiskusikan peluang posisi Senior/Lead, konsultasi design system, maupun arsitektur produk digital Anda.",
+    buttonEmailText: "ibadurrahman.dev@gmail.com",
+    buttonPdfText: "Download PDF Resume"
+  }
 };
