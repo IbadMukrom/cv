@@ -212,7 +212,7 @@ function renderEducationAndCertifications() {
       <div class="edu-compact-item">
         <div class="edu-degree">${ed.degree}</div>
         <div class="edu-school">${ed.institution}</div>
-        <div class="edu-year">${ed.period} • IPK 3.84 / Cum Laude</div>
+        <div class="edu-year">${ed.period}${ed.details ? ` • ${ed.details}` : ''}</div>
       </div>
     `).join('');
   }

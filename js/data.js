@@ -18,13 +18,13 @@ const CV_DATA = {
     subtitle: "Praktisi digitalisasi pemerintahan dengan fokus pada transformasi SPBE, citizen-centric UX, dan interoperabilitas Satu Data yang aman dan akuntabel.",
     status: "Terbuka untuk Kolaborasi & Proyek Transformasi Digital",
     statusType: "available",
-    location: "Indonesia (Kementerian / Lembaga / Pemda)",
+    location: "Lombok Barat, Nusa Tenggara Barat",
     email: "ibadmukrom569@gmail.com",
     phone: "+62 822-2859-0254",
     avatar: "assets/images/avatar.jpg",
     bio: [
-      "Praktisi teknologi informasi dan software engineer dengan pengalaman lebih dari 5 tahun dalam rekayasa perangkat lunak dan modernisasi Sistem Pemerintahan Berbasis Elektronik (SPBE). Berfokus pada perancangan antarmuka layanan publik ramah warga, standarisasi sistem desain antar-instansi, serta arsitektur perangkat lunak yang aman, transparan, dan berkinerja tinggi.",
-      "Berpengalaman membangun aplikasi skala enterprise, platform SaaS, serta integrasi interoperabilitas Satu Data Nasional."
+      "Praktisi teknologi informasi dan software engineer dengan pengalaman lebih dari 5 tahun dalam rekayasa perangkat lunak dan modernisasi Sistem Pemerintahan Berbasis Elektronik (SPBE). Berfokus pada pengembangan sistem layanan publik, integrasi data antar-OPD, serta arsitektur aplikasi yang aman, transparan, dan berkinerja tinggi.",
+      "Berpengalaman membangun aplikasi sistem pemerintahan daerah, platform SaaS multi-tenant, dan sistem otomasi digital."
     ],
     socials: [
       {
@@ -71,31 +71,32 @@ const CV_DATA = {
 
   experience: [
     {
-      period: "2022 — Sekarang",
-      role: "Lead UI/UX Designer & IT Systems Architect",
-      company: "Pusat Transformasi Digital & Tata Kelola SPBE",
-      location: "Jakarta / Instansi Pemerintah",
+      period: "2024 — Sekarang",
+      role: "Software Engineer & SPBE Specialist",
+      company: "Dinas Komunikasi, Informatika, dan Statistik (Diskominfotik) Kab. Lombok Barat",
+      location: "Lombok Barat, NTB",
       badge: "Pemerintahan",
-      description: "Memimpin perancangan produk digital dan standarisasi sistem desain portal pelayanan publik terpadu lintas sektor.",
+      description: "Memimpin rekayasa perangkat lunak, modernisasi tata kelola SPBE, integrasi Satu Data daerah, dan pengembangan portal layanan publik terpadu.",
       highlights: [
-        "Mengembangkan Portal Satu Pintu Pelayanan Terpadu yang memangkas waktu pengurusan izin warga dari 14 hari kerja menjadi hanya 2 hari secara daring.",
-        "Merancang Panduan Sistem Desain Layanan Publik Terpadu yang diadopsi oleh 18 unit kerja perangkat daerah, menjaga konsistensi visual dan kemudahan warga.",
-        "Meningkatkan skor Indeks Kepuasan Masyarakat (IKM) layanan digital hingga predikat 'Sangat Baik' (94.8/100)."
+        "Mengembangkan dan mengelola aplikasi layanan publik serta integrasi sistem pemerintahan berbasis elektronik (SPBE) daerah.",
+        "Mengoptimalkan interoperabilitas pertukaran data antar-OPD untuk mendukung inisiatif Satu Data Kabupaten Lombok Barat.",
+        "Meningkatkan keandalan sistem informasi daerah, kepatuhan audit SPBE, dan performa aksesibilitas layanan digital masyarakat."
       ],
-      technologies: ["React", "Next.js", "TypeScript", "TailwindCSS", "SPBE Architecture", "WCAG 2.1"]
+      technologies: ["Web Engineering", "SPBE Framework", "Integrasi API", "PostgreSQL", "Keamanan Siber", "TailwindCSS"]
     },
     {
-      period: "2019 — 2022",
-      role: "Senior UI/UX & Full-Stack Engineer",
-      company: "Pusat Data dan Informasi (Pusdatin)",
-      location: "Indonesia",
+      period: "2021 — 2023",
+      role: "IT Systems Developer & Financial Data Specialist",
+      company: "Badan Pengelolaan Keuangan dan Aset Daerah (BPKAD) Kab. Lombok Barat",
+      location: "Lombok Barat, NTB",
       badge: "Pemerintahan",
-      description: "Merancang antarmuka analitik eksekutif dan mengintegrasikan interoperabilitas sistem antar-lembaga.",
+      description: "Mengembangkan sistem informasi penatausahaan keuangan dan aset daerah, rekonsiliasi data anggaran, serta otomasi pelaporan berkala dinas.",
       highlights: [
-        "Membangun Dashboard Eksekutif Satu Data real-time untuk memfasilitasi pengambilan keputusan strategis kepala lembaga berbasis data valid.",
-        "Mengimplementasikan integrasi sistem pertukaran data terenkripsi antar-aplikasi dinas, mereduksi redundansi entri data ganda hingga 70%."
+        "Membangun sistem penatausahaan aset dan otomasi pelaporan keuangan daerah guna meningkatkan akuntabilitas dan efisiensi birokrasi.",
+        "Mendukung integrasi sinkronisasi data anggaran dan rekonsiliasi laporan keuangan berkala antar-OPD di Pemkab Lombok Barat.",
+        "Menjamin keandalan database keuangan daerah, integritas data barang milik daerah (BMD), dan kepatuhan standar audit BPK."
       ],
-      technologies: ["Vue.js", "Node.js", "Python", "PostgreSQL", "REST APIs", "Keamanan Siber"]
+      technologies: ["PHP/Laravel", "JavaScript", "MySQL/PostgreSQL", "Database Architecture", "Sistem Keuangan Daerah", "SOP Otomasi"]
     }
   ],
 
@@ -168,9 +169,8 @@ const CV_DATA = {
   education: [
     {
       degree: "Sarjana Ilmu Komputer (S.Kom) / Teknik Informatika",
-      institution: "Universitas Gadjah Mada (UGM)",
-      period: "2012 — 2016",
-      details: "IPK 3.84 / 4.00 (Cum Laude). Fokus pada Human-Computer Interaction (HCI) dan Rekayasa Perangkat Lunak Terdistribusi."
+      institution: "Universitas Bumigora Mataram (UBG)",
+      period: "2014 — 2019",
     }
   ],
 
