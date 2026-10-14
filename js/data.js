@@ -10,21 +10,21 @@ const CV_DATA = {
   personal: {
     name: "Ibad Mukrom",
     nickname: "Ibad",
-    title: "Senior UI/UX Designer & Software Engineer — GovTech Specialist",
+    title: "Software Engineer — GovTech Specialist",
     badgeRole: "GOVTECH & SPBE SPECIALIST",
-    marquee: "✦ IBAD MUKROM ✦ SENIOR UI/UX DESIGNER ✦ SOFTWARE ENGINEER ✦ SISTEM PEMERINTAHAN BERBASIS ELEKTRONIK (SPBE) ✦ LAYANAN PUBLIK DIGITAL ✦ SATU DATA INDONESIA ✦",
+    marquee: "✦ IBAD MUKROM ✦ SOFTWARE ENGINEER ✦ FULL-STACK ARCHITECT ✦ SISTEM PEMERINTAHAN BERBASIS ELEKTRONIK (SPBE) ✦ LAYANAN PUBLIK DIGITAL ✦ SATU DATA INDONESIA ✦",
     headline: "Mewujudkan tata kelola layanan publik digital yang humanis melalui",
     headlineHighlight: "UI/UX & Rekayasa Sistem Handal",
     subtitle: "Praktisi digitalisasi pemerintahan dengan fokus pada transformasi SPBE, citizen-centric UX, dan interoperabilitas Satu Data yang aman dan akuntabel.",
     status: "Terbuka untuk Kolaborasi & Proyek Transformasi Digital",
     statusType: "available",
     location: "Indonesia (Kementerian / Lembaga / Pemda)",
-    email: "ibad.mukrom@gmail.com",
-    phone: "+62 812-3456-7890",
+    email: "ibadmukrom569@gmail.com",
+    phone: "+62 822-2859-0254",
     avatar: "assets/images/avatar.jpg",
     bio: [
-      "Praktisi teknologi informasi dan perancang produk digital dengan pengalaman lebih dari 8 tahun dalam modernisasi Sistem Pemerintahan Berbasis Elektronik (SPBE). Berfokus pada perancangan antarmuka layanan publik yang ramah warga (citizen-centric UX), standarisasi sistem desain antar-instansi, serta arsitektur perangkat lunak yang aman, transparan, dan berkinerja tinggi.",
-      "Berpengalaman memimpin tim teknis lintas sektoral dalam merancang portal satu pintu pelayanan publik, dashboard analitik monitoring program strategis pimpinan daerah, serta integrasi interoperabilitas Satu Data Nasional."
+      "Praktisi teknologi informasi dan software engineer dengan pengalaman lebih dari 5 tahun dalam rekayasa perangkat lunak dan modernisasi Sistem Pemerintahan Berbasis Elektronik (SPBE). Berfokus pada perancangan antarmuka layanan publik ramah warga, standarisasi sistem desain antar-instansi, serta arsitektur perangkat lunak yang aman, transparan, dan berkinerja tinggi.",
+      "Berpengalaman membangun aplikasi skala enterprise, platform SaaS, serta integrasi interoperabilitas Satu Data Nasional."
     ],
     socials: [
       {
@@ -38,16 +38,10 @@ const CV_DATA = {
         icon: "linkedin",
         url: "https://linkedin.com/in/ibadmukrom",
         username: "linkedin.com/in/ibadmukrom"
-      },
-      {
-        name: "Figma",
-        icon: "figma",
-        url: "https://figma.com/@ibadmukrom",
-        username: "@ibadmukrom-gov"
       }
     ],
     stats: [
-      { label: "Pengalaman IT", value: "8+ Thn", detail: "GovTech & Sektor Publik" },
+      { label: "Pengalaman IT", value: "5+ Thn", detail: "GovTech & Sektor Publik" },
       { label: "Sistem Rilis", value: "35+", detail: "Layanan Publik & Internal" },
       { label: "Indeks Kepuasan", value: "99.2%", detail: "IKM Pelayanan Publik" },
       { label: "Warga Terlayani", value: "5.2M+", detail: "Dampak Layanan Digital" }
@@ -57,7 +51,7 @@ const CV_DATA = {
   skills: {
     design: [
       { name: "Citizen-Centric UX Design", level: 96, tags: ["Riset Warga", "Kemudahan Akses", "Empati Layanan"] },
-      { name: "Design System Layanan Publik", level: 95, tags: ["Figma Tokens", "Standarisasi UI", "WCAG 2.1 AA"] },
+      { name: "Design System Layanan Publik", level: 95, tags: ["Design Tokens", "Standarisasi UI", "WCAG 2.1 AA"] },
       { name: "Analisis Alur Birokrasi & SPBE", level: 92, tags: ["SOP Pelayanan", "Simplifikasi Regulasi", "User Journey"] },
       { name: "Aksesibilitas Digital (A11y)", level: 90, tags: ["Ramah Difabel", "Kontras Visual", "Multi-Perangkat"] }
     ],
@@ -88,7 +82,7 @@ const CV_DATA = {
         "Merancang Panduan Sistem Desain Layanan Publik Terpadu yang diadopsi oleh 18 unit kerja perangkat daerah, menjaga konsistensi visual dan kemudahan warga.",
         "Meningkatkan skor Indeks Kepuasan Masyarakat (IKM) layanan digital hingga predikat 'Sangat Baik' (94.8/100)."
       ],
-      technologies: ["Figma", "React", "Next.js", "TypeScript", "SPBE Framework", "WCAG 2.1"]
+      technologies: ["React", "Next.js", "TypeScript", "TailwindCSS", "SPBE Architecture", "WCAG 2.1"]
     },
     {
       period: "2019 — 2022",
@@ -101,73 +95,73 @@ const CV_DATA = {
         "Membangun Dashboard Eksekutif Satu Data real-time untuk memfasilitasi pengambilan keputusan strategis kepala lembaga berbasis data valid.",
         "Mengimplementasikan integrasi sistem pertukaran data terenkripsi antar-aplikasi dinas, mereduksi redundansi entri data ganda hingga 70%."
       ],
-      technologies: ["Figma", "Vue.js", "Node.js", "PostgreSQL", "REST APIs", "Keamanan Siber"]
+      technologies: ["Vue.js", "Node.js", "Python", "PostgreSQL", "REST APIs", "Keamanan Siber"]
     }
   ],
 
   projects: [
     {
-      id: "portal-warga",
-      title: "Portal Layanan Publik Terpadu Warga",
-      category: "layanan-publik",
-      categoryName: "Layanan Publik Digital",
+      id: "cms-trip",
+      title: "CMS Trip — SaaS Engine Agen Wisata",
+      category: "saas-traveltech",
+      categoryName: "SaaS & TravelTech",
       image: "assets/images/project-saas.jpg",
-      summary: "Portal satu pintu perizinan warga dan layanan administrasi terintegrasi dengan Single Sign-On (SSO) kependudukan nasional.",
-      client: "Instansi Pemerintah Daerah",
-      role: "Lead UI/UX & Frontend Architect",
-      timeline: "6 Bulan",
-      problem: "Masyarakat harus mengakses lebih dari 12 aplikasi berbeda untuk mengurus administrasi kependudukan dan perizinan usaha, menimbulkan antrean fisik dan birokrasi berbelit.",
-      solution: "Mengintegrasikan seluruh formulir layanan ke dalam satu antarmuka terpadu yang ramah mobile, dilengkapi pelacakan status perizinan secara transparan dan notifikasi otomatis.",
+      summary: "Platform SaaS multi-tenant instan untuk agensi wisata & tur dengan katalog paket dinamis dan reservasi WhatsApp otomatis.",
+      client: "B2B Travel Agencies & Tour Operators",
+      role: "Creator & Full-Stack Architect",
+      timeline: "Produksi Aktif",
+      problem: "Banyak agensi wisata kesulitan memiliki website profesional dengan katalog paket tur dinamis dan sistem booking otomatis tanpa biaya pengembangan kustom yang mahal.",
+      solution: "Mengembangkan platform SaaS multi-tenant berkecepatan tinggi dengan setup instan (< 5 menit), manajemen tema fleksibel, dan alur booking langsung ke WhatsApp.",
       results: [
-        "Pemangkasan waktu pengurusan izin warga sebesar 85%",
-        "Diakses oleh lebih dari 1.8 juta warga terverifikasi",
-        "Memperoleh Penghargaan Inovasi Pelayanan Publik KemenPANRB"
+        "Arsitektur multi-tenant tangguh dengan pemisahan data aman dan dukungan kustom domain",
+        "Otomatisasi alur pemesanan tur langsung via integrasi WhatsApp API",
+        "Performa website ultra-cepat dengan desain modern yang dioptimasi untuk konversi"
       ],
-      tags: ["Citizen-Centric UX", "SPBE", "React", "TypeScript", "Single Sign-On"],
-      liveUrl: "https://layananpublik-demo.example.gov.id",
-      githubUrl: "https://github.com/ibadmukrom/portal-layanan-warga"
+      tags: ["SaaS Multi-Tenant", "Python/Django", "TailwindCSS", "PostgreSQL", "WhatsApp API"],
+      liveUrl: "https://cmstrip.com",
+      githubUrl: "https://github.com/IbadMukrom"
     },
     {
-      id: "dashboard-satu-data",
-      title: "Dashboard Eksekutif Satu Data Pemerintahan",
-      category: "satu-data",
-      categoryName: "Satu Data & Dashboard",
+      id: "finansialku",
+      title: "Finansialku — Platform Finansial & Bot",
+      category: "fintech-bot",
+      categoryName: "FinTech & Bot Otomasi",
       image: "assets/images/project-ai.jpg",
-      summary: "Pusat visualisasi data spasial dan analitik kinerja anggaran, penanganan stunting, dan capaian program prioritas untuk pimpinan.",
-      client: "Sekretariat Daerah / Bappeda",
-      role: "Principal Product Designer & Prototyper",
-      timeline: "4 Bulan",
-      problem: "Pimpinan daerah kesulitan memantau realisasi anggaran dan indikator kinerja dinas secara cepat karena data tersebar di berbagai spreadsheet terpisah.",
-      solution: "Merancang dasbor visual berkecepatan tinggi dengan peta geospasial interaktif, filter indikator prioritas, dan ringkasan eksekutif otomatis.",
+      summary: "Aplikasi manajemen keuangan pribadi cerdas dengan sinkronisasi dual-channel: Telegram Bot dan web dashboard analitik.",
+      client: "Pengguna Publik & Produktivitas Finansial",
+      role: "Full-Stack Engineer & Product Architect",
+      timeline: "Produksi Aktif",
+      problem: "Pencatatan keuangan manual sering terhenti karena proses input yang rumit dan tidak praktis saat transaksi terjadi secara langsung.",
+      solution: "Membangun sistem pencatatan berbasis command instan melalui Telegram Bot yang tersinkronisasi otomatis ke dashboard analitik web visual.",
       results: [
-        "Akurasi dan kecepatan pengambilan keputusan pimpinan meningkat 4x lipat",
-        "Harmonisasi data antar 24 Organisasi Perangkat Daerah (OPD)",
-        "Zero-latency loading (< 0.5 detik) untuk dataset jutaan baris"
+        "Pencatatan pengeluaran harian instan hanya dalam hitungan detik via bot",
+        "Visualisasi alokasi anggaran dan riwayat arus kas yang komprehensif",
+        "Antarmuka Neo-Brutalism modern yang ringan dan nyaman di smartphone"
       ],
-      tags: ["Dashboard Eksekutif", "Visualisasi Data", "Satu Data", "Next.js", "PostgreSQL"],
-      liveUrl: "https://satudata-demo.example.gov.id",
-      githubUrl: "https://github.com/ibadmukrom/satudata-executive-dashboard"
+      tags: ["FinTech", "Telegram Bot API", "Web Dashboard", "Analytics", "Automation"],
+      liveUrl: "https://www.finansialku.web.id",
+      githubUrl: "https://github.com/IbadMukrom"
     },
     {
-      id: "mobile-aspirasi",
-      title: "Sistem Pengaduan Aspirasi & Lapor Warga",
-      category: "mobile-gov",
-      categoryName: "Aspirasi & Mobile",
+      id: "explore-rinjani",
+      title: "Explore Rinjani — Global Trekking Platform",
+      category: "tourism-ecommerce",
+      categoryName: "E-Commerce & Pariwisata",
       image: "assets/images/project-mobile.jpg",
-      summary: "Kanal pengaduan masyarakat berbasis mobile dengan penandaan lokasi GPS otomatis, verifikasi tindak lanjut dinas, dan transparansi publik.",
-      client: "Dinas Komunikasi dan Informatika",
-      role: "Senior UX Designer & Mobile Specialist",
-      timeline: "4 Bulan",
-      problem: "Laporan infrastruktur rusak atau keluhan warga lambat direspons dan seringkali tidak jelas dinas mana yang bertanggung jawab menanganinya.",
-      solution: "Aplikasi mobile pelaporan 3 langkah dengan auto-tagging instansi terkait berbasis kategori keluhan dan monitoring tindak lanjut berbatas waktu (SLA).",
+      summary: "Platform pemesanan paket pendakian dan ekowisata Gunung Rinjani berstandar global dengan optimasi performa tinggi.",
+      client: "Operator Tur Rinjani & Wisatawan Mancanegara",
+      role: "Lead Web Developer & SEO Engineer",
+      timeline: "Produksi Aktif",
+      problem: "Wisatawan internasional memerlukan portal terpercaya dengan informasi paket trekking yang transparan, aman, dan berkecepatan akses tinggi dari luar negeri.",
+      solution: "Mengembangkan portal web pariwisata berkecepatan tinggi dengan optimasi SEO internasional, katalog paket multi-hari terstruktur, dan reservasi instan.",
       results: [
-        "Penyelesaian aduan warga dipercepat dari 14 hari menjadi rata-rata 48 jam",
-        "91% tingkat kepuasan tindak lanjut dari masyarakat pelapor",
-        "Telah menangani lebih dari 250.000 laporan tervalidasi"
+        "Performa loading global ultra-cepat dengan skor Core Web Vitals optimal",
+        "Struktur SEO ramah mesin pencari untuk menjangkau wisatawan mancanegara",
+        "Penyajian informasi paket pendakian terintegrasi dengan pemandu bersertifikasi"
       ],
-      tags: ["Mobile UX", "Partisipasi Publik", "Tracking System", "Figma", "Keamanan Data"],
-      liveUrl: "https://laporwarga-demo.example.gov.id",
-      githubUrl: "https://github.com/ibadmukrom/lapor-warga-mobile"
+      tags: ["Web Platform", "SEO Global", "Tourism Tech", "Performance", "Booking Pipeline"],
+      liveUrl: "https://www.explorerinjani.com",
+      githubUrl: "https://github.com/IbadMukrom"
     }
   ],
 
