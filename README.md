@@ -1,8 +1,8 @@
-# 🚀 Portofolio & CV Digital — Senior UI/UX Designer & Full-Stack Engineer
+# 🚀 Curriculum Vitae (1 Lembar) — Ibad Mukrom (GovTech & SPBE Specialist)
 
-Selamat datang di repositori portofolio & CV interaktif modern yang dirancang khusus untuk memikat hati *hiring manager*, klien enterprise, dan komunitas open-source. Dibuat dengan standar visual **Senior UI/UX Designer** dan arsitektur kode bersih **Senior Full-Stack Engineer**.
+Selamat datang di repositori CV digital 1 lembar profesional milik **Ibad Mukrom**: *Senior UI/UX Designer & Software Engineer* dengan spesialisasi transformasi digital pemerintahan, arsitektur Sistem Pemerintahan Berbasis Elektronik (SPBE), perancangan antarmuka layanan publik ramah warga (*citizen-centric UX*), dan integrasi Satu Data.
 
-Situs ini **100% siap di-hosting langsung ke GitHub Pages** tanpa dependensi runtime atau build tools yang rumit!
+Situs ini menggunakan gaya desain **Neo-Brutalism** yang tegas, modern, dan elegan, serta **100% siap di-hosting langsung ke GitHub Pages** tanpa dependensi runtime atau build tools rumit!
 
 ---
 

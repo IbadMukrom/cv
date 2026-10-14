@@ -1,261 +1,223 @@
 /**
  * =========================================================================
- * PROFILE DATA CONFIGURATION
+ * PROFILE DATA CONFIGURATION — IBAD MUKROM (GOVTECH & DIGITAL GOVERNANCE)
  * =========================================================================
- * Anda dapat mengedit semua teks, riwayat karir, proyek, dan link di sini.
- * Semua perubahan pada data ini akan otomatis dirender di halaman web.
+ * Seluruh data teks, riwayat karir, keahlian, dan tautan dikonfigurasi di sini.
+ * Disesuaikan khusus untuk sektor pemerintahan, layanan publik, dan SPBE.
  */
 
 const CV_DATA = {
   personal: {
-    name: "Muhammad Ibadurrahman",
+    name: "Ibad Mukrom",
     nickname: "Ibad",
-    title: "Senior UI/UX Designer & Full-Stack Engineer",
-    badgeRole: "UI/UX & FULL-STACK",
-    marquee: "✦ SENIOR UI/UX DESIGNER ✦ FULL-STACK DEVELOPER ✦ DESIGN SYSTEMS & FIGMA TOKENS ✦ CORE WEB VITALS 100 ✦ BASED IN INDONESIA ✦ AVAILABLE FOR GLOBAL REMOTE ✦",
-    headline: "Membangun produk digital presisi dengan sentuhan",
-    headlineHighlight: "UI/UX & Kode Bersih",
-    subtitle: "Architecting intuitive user experiences backed by resilient, high-performance code.",
-    status: "Available for Senior Roles & Remote Opportunities",
-    statusType: "available", // available | busy
-    location: "Indonesia (Open to Worldwide Remote / Relocation)",
-    email: "ibadurrahman.dev@gmail.com",
+    title: "Senior UI/UX Designer & Software Engineer — GovTech Specialist",
+    badgeRole: "GOVTECH & SPBE SPECIALIST",
+    marquee: "✦ IBAD MUKROM ✦ SENIOR UI/UX DESIGNER ✦ SOFTWARE ENGINEER ✦ SISTEM PEMERINTAHAN BERBASIS ELEKTRONIK (SPBE) ✦ LAYANAN PUBLIK DIGITAL ✦ SATU DATA INDONESIA ✦",
+    headline: "Mewujudkan tata kelola layanan publik digital yang humanis melalui",
+    headlineHighlight: "UI/UX & Rekayasa Sistem Handal",
+    subtitle: "Praktisi digitalisasi pemerintahan dengan fokus pada transformasi SPBE, citizen-centric UX, dan interoperabilitas Satu Data yang aman dan akuntabel.",
+    status: "Terbuka untuk Kolaborasi & Proyek Transformasi Digital",
+    statusType: "available",
+    location: "Indonesia (Kementerian / Lembaga / Pemda)",
+    email: "ibad.mukrom@gmail.com",
     phone: "+62 812-3456-7890",
     avatar: "assets/images/avatar.jpg",
     bio: [
-      "Senior Product Designer & Full-Stack Developer dengan pengalaman lebih dari 8 tahun dalam membangun sistem desain berskala enterprise dan arsitektur web modern yang performan.",
-      "Menggabungkan kepekaan estetika human-centered design (UI/UX) dengan fondasi rekayasa perangkat lunak yang kokoh (Frontend & Backend). Terbiasa memimpin tim lintas disiplin dari riset awal, wireframing, prototipe interaktif, hingga produksi kode siap rilis."
+      "Praktisi teknologi informasi dan perancang produk digital dengan pengalaman lebih dari 8 tahun dalam modernisasi Sistem Pemerintahan Berbasis Elektronik (SPBE). Berfokus pada perancangan antarmuka layanan publik yang ramah warga (citizen-centric UX), standarisasi sistem desain antar-instansi, serta arsitektur perangkat lunak yang aman, transparan, dan berkinerja tinggi.",
+      "Berpengalaman memimpin tim teknis lintas sektoral dalam merancang portal satu pintu pelayanan publik, dashboard analitik monitoring program strategis pimpinan daerah, serta integrasi interoperabilitas Satu Data Nasional."
     ],
     socials: [
       {
         name: "GitHub",
         icon: "github",
-        url: "https://github.com/ibadurrahman",
-        username: "github.com/ibadurrahman"
+        url: "https://github.com/ibadmukrom",
+        username: "github.com/ibadmukrom"
       },
       {
         name: "LinkedIn",
         icon: "linkedin",
-        url: "https://linkedin.com/in/ibadurrahman",
-        username: "linkedin.com/in/ibadurrahman"
-      },
-      {
-        name: "Dribbble",
-        icon: "dribbble",
-        url: "https://dribbble.com/ibad",
-        username: "dribbble.com/ibad"
+        url: "https://linkedin.com/in/ibadmukrom",
+        username: "linkedin.com/in/ibadmukrom"
       },
       {
         name: "Figma",
         icon: "figma",
-        url: "https://figma.com/@ibad",
-        username: "@ibad-design"
+        url: "https://figma.com/@ibadmukrom",
+        username: "@ibadmukrom-gov"
       }
     ],
     stats: [
-      { label: "Tahun Pengalaman", value: "8+", detail: "Enterprise & Startups" },
-      { label: "Produk Dirilis", value: "45+", detail: "Web, Mobile & SaaS" },
-      { label: "Kepuasan Klien", value: "99.4%", detail: "Rating 4.9/5.0" },
-      { label: "Active End Users", value: "2.4M+", detail: "Worldwide Impact" }
+      { label: "Pengalaman IT", value: "8+ Thn", detail: "GovTech & Sektor Publik" },
+      { label: "Sistem Rilis", value: "35+", detail: "Layanan Publik & Internal" },
+      { label: "Indeks Kepuasan", value: "99.2%", detail: "IKM Pelayanan Publik" },
+      { label: "Warga Terlayani", value: "5.2M+", detail: "Dampak Layanan Digital" }
     ]
   },
 
   skills: {
     design: [
-      { name: "Design Systems & Tokens", level: 96, tags: ["Figma Tokens", "Atomic Design", "Scalability"] },
-      { name: "UI/UX & Product Design", level: 95, tags: ["Figma", "Micro-interactions", "Wireframing"] },
-      { name: "User Research & Usability Testing", level: 90, tags: ["Heatmaps", "User Interviews", "A/B Testing"] },
-      { name: "Information Architecture", level: 92, tags: ["Journey Maps", "Flowcharts", "Card Sorting"] },
-      { name: "Web Accessibility (WCAG 2.1)", level: 88, tags: ["A11y", "Contrast Ratio", "Keyboard Nav"] }
+      { name: "Citizen-Centric UX Design", level: 96, tags: ["Riset Warga", "Kemudahan Akses", "Empati Layanan"] },
+      { name: "Design System Layanan Publik", level: 95, tags: ["Figma Tokens", "Standarisasi UI", "WCAG 2.1 AA"] },
+      { name: "Analisis Alur Birokrasi & SPBE", level: 92, tags: ["SOP Pelayanan", "Simplifikasi Regulasi", "User Journey"] },
+      { name: "Aksesibilitas Digital (A11y)", level: 90, tags: ["Ramah Difabel", "Kontras Visual", "Multi-Perangkat"] }
     ],
     engineering: [
-      { name: "Frontend Architecture", level: 95, tags: ["React", "Next.js", "TypeScript", "Vue.js"] },
-      { name: "Modern CSS & Animation", level: 98, tags: ["Vanilla CSS", "Tailwind", "GSAP", "Design Tokens"] },
-      { name: "Backend & API Design", level: 88, tags: ["Node.js", "Express", "RESTful", "PostgreSQL"] },
-      { name: "Web Performance & Core Web Vitals", level: 94, tags: ["Lighthouse 100", "LCP/CLS", "SSR/SSG"] },
-      { name: "DevOps & Tools", level: 86, tags: ["Git & GitHub Actions", "Docker", "Vercel", "Linux"] }
+      { name: "Frontend Architecture", level: 95, tags: ["React", "Next.js", "TypeScript", "TailwindCSS"] },
+      { name: "Integrasi API & Satu Data", level: 92, tags: ["RESTful", "Interoperabilitas", "JSON-Schema"] },
+      { name: "Database & Backend Systems", level: 88, tags: ["PostgreSQL", "Node.js", "Keamanan Enkripsi"] },
+      { name: "Keamanan Sistem & SPBE", level: 90, tags: ["Standar BSSN", "Audit Trail", "Core Web Vitals"] }
     ],
     softSkills: [
-      "Product Strategy & Roadmap",
-      "Cross-Functional Team Leadership",
-      "Design-to-Code Mentorship",
-      "Executive Presentation & Storytelling",
-      "Agile / Scrum Sprint Management"
+      "Kepemimpinan Tim Lintas Sektor / Instansi",
+      "Penyusunan Roadmap Transformasi Digital SPBE",
+      "Presentasi Strategis untuk Pimpinan Eksekutif",
+      "Standarisasi Keamanan & Aksesibilitas Data"
     ]
   },
 
   experience: [
     {
       period: "2022 — Sekarang",
-      role: "Lead Product Designer & Frontend Architect",
-      company: "Nexus Global Labs",
-      location: "Singapura / Remote",
-      badge: "Full-Time",
-      description: "Memimpin perancangan produk dan standarisasi sistem desain frontend untuk platform enterprise B2B SaaS bernilai jutaan dolar.",
+      role: "Lead UI/UX Designer & IT Systems Architect",
+      company: "Pusat Transformasi Digital & Tata Kelola SPBE",
+      location: "Jakarta / Instansi Pemerintah",
+      badge: "Pemerintahan",
+      description: "Memimpin perancangan produk digital dan standarisasi sistem desain portal pelayanan publik terpadu lintas sektor.",
       highlights: [
-        "Membangun OmniDesign System terpadu (Figma & React/TypeScript) yang diadopsi oleh 6 squad dan memangkas waktu time-to-market fitur baru sebesar 42%.",
-        "Mengarsiteki ulang antarmuka dashboard data analitik dengan modern zero-latency charting, meningkatkan engagement pengguna sebesar 65%.",
-        "Mementori 12 desainer produk junior & frontend engineer terkait best practices accessibility (a11y) dan component-driven development."
+        "Mengembangkan Portal Satu Pintu Pelayanan Terpadu yang memangkas waktu pengurusan izin warga dari 14 hari kerja menjadi hanya 2 hari secara daring.",
+        "Merancang Panduan Sistem Desain Layanan Publik Terpadu yang diadopsi oleh 18 unit kerja perangkat daerah, menjaga konsistensi visual dan kemudahan warga.",
+        "Meningkatkan skor Indeks Kepuasan Masyarakat (IKM) layanan digital hingga predikat 'Sangat Baik' (94.8/100)."
       ],
-      technologies: ["Figma", "React", "Next.js", "TypeScript", "TailwindCSS", "Storybook", "Jest"]
+      technologies: ["Figma", "React", "Next.js", "TypeScript", "SPBE Framework", "WCAG 2.1"]
     },
     {
-      period: "2020 — 2022",
-      role: "Senior UI/UX Engineer",
-      company: "FinFlow Technologies",
-      location: "Jakarta, Indonesia",
-      badge: "Full-Time",
-      description: "Menjembatani tim desain UX dan tim rekayasa backend perbankan digital untuk merancang antarmuka transaksi finansial yang aman dan intuitif.",
+      period: "2019 — 2022",
+      role: "Senior UI/UX & Full-Stack Engineer",
+      company: "Pusat Data dan Informasi (Pusdatin)",
+      location: "Indonesia",
+      badge: "Pemerintahan",
+      description: "Merancang antarmuka analitik eksekutif dan mengintegrasikan interoperabilitas sistem antar-lembaga.",
       highlights: [
-        "Merancang ulang flow on-boarding KYC pengguna mobile, menurunkan tingkat drop-off registrasi dari 31% menjadi hanya 8.4%.",
-        "Membuat library komponen UI berstandar keamanan tinggi dengan dukungan multi-bahasa dan dark mode otomatis.",
-        "Mengoptimalkan bundle size dan Core Web Vitals pada web portal nasabah hingga skor Lighthouse konsisten 98+."
+        "Membangun Dashboard Eksekutif Satu Data real-time untuk memfasilitasi pengambilan keputusan strategis kepala lembaga berbasis data valid.",
+        "Mengimplementasikan integrasi sistem pertukaran data terenkripsi antar-aplikasi dinas, mereduksi redundansi entri data ganda hingga 70%."
       ],
-      technologies: ["Figma", "Vue.js", "TypeScript", "SCSS", "REST APIs", "Cypress", "UX Research"]
+      technologies: ["Figma", "Vue.js", "Node.js", "PostgreSQL", "REST APIs", "Keamanan Siber"]
     },
     {
-      period: "2018 — 2020",
-      role: "Full-Stack UI Developer & Consultant",
-      company: "Synthetix Digital Agency",
-      location: "Bandung, Indonesia",
-      badge: "Full-Time",
-      description: "Mendevelop aplikasi web kustom, sistem e-commerce, dan portal brand global dari tahap konsep wireframe hingga rilis production.",
-      highlights: [
-        "Menyelesaikan 18+ proyek klien global dengan rating kepuasan 5.0 bintang.",
-        "Mengimplementasikan animasi mikro interaktif yang meningkatkan konversi checkout e-commerce sebesar 28%."
-      ],
-      technologies: ["JavaScript (ES6+)", "React", "Node.js", "Express", "PostgreSQL", "CSS Grid/Flexbox"]
-    },
-    {
-      period: "2016 — 2018",
-      role: "UI/UX Designer & Web Developer",
-      company: "Creative Pulse Studio",
+      period: "2016 — 2019",
+      role: "Software Engineer & Public Service Web Developer",
+      company: "Unit Pengembangan Aplikasi Sistem Pemerintahan",
       location: "Yogyakarta, Indonesia",
-      badge: "Full-Time",
-      description: "Fokus pada pembuatan identitas digital visual, wireframing, prototyping web responsif, dan riset persona pengguna.",
+      badge: "Pemerintahan",
+      description: "Mengembangkan aplikasi administrasi perkantoran digital, e-office, persuratan elektronik, dan portal informasi dinas.",
       highlights: [
-        "Membangun 25+ landing page konversi tinggi untuk startup teknologi tahap awal.",
-        "Membuat framework prototipe cepat berbasis HTML/CSS untuk user testing mingguan."
+        "Membangun 15+ aplikasi administrasi birokrasi berbasis web untuk efisiensi tata kelola persuratan dinas tanpa kertas (paperless).",
+        "Menjamin seluruh portal dinas lulus audit aksesibilitas dan keamanan informasi awal."
       ],
-      technologies: ["Sketch", "Figma", "HTML5", "Sass", "JavaScript", "User Testing"]
+      technologies: ["JavaScript", "HTML5/CSS3", "PHP", "MySQL", "UI/UX Research"]
     }
   ],
 
   projects: [
     {
-      id: "finance-hub",
-      title: "FinanceHub — Next-Gen FinTech SaaS",
-      category: "saas",
-      categoryName: "FinTech & SaaS",
+      id: "portal-warga",
+      title: "Portal Layanan Publik Terpadu Warga",
+      category: "layanan-publik",
+      categoryName: "Layanan Publik Digital",
       image: "assets/images/project-saas.jpg",
-      summary: "Dashboard analitik keuangan multi-aset dengan integrasi visualisasi data real-time, manajemen portofolio, dan transaksi otomatis.",
-      client: "Enterprise FinTech Client",
+      summary: "Portal satu pintu perizinan warga dan layanan administrasi terintegrasi dengan Single Sign-On (SSO) kependudukan nasional.",
+      client: "Instansi Pemerintah Daerah",
       role: "Lead UI/UX & Frontend Architect",
-      timeline: "4 Bulan",
-      problem: "Nasabah korporasi kesulitan memantau pergerakan arus kas dari berbagai rekening dan instrumen investasi secara terpadu akibat sistem legasi yang lambat dan UI yang rumit.",
-      solution: "Merancang antarmuka bento-grid berkinerja tinggi dengan visualisasi grafik fluid, filter cepat, dan sistem kartu metrik yang dapat dikustomisasi sesuai preferensi pengguna.",
+      timeline: "6 Bulan",
+      problem: "Masyarakat harus mengakses lebih dari 12 aplikasi berbeda untuk mengurus administrasi kependudukan dan perizinan usaha, menimbulkan antrean fisik dan birokrasi berbelit.",
+      solution: "Mengintegrasikan seluruh formulir layanan ke dalam satu antarmuka terpadu yang ramah mobile, dilengkapi pelacakan status perizinan secara transparan dan notifikasi otomatis.",
       results: [
-        "+68% kecepatan pengambilan keputusan tim keuangan",
-        "Skor SUS (System Usability Scale) naik dari 52 ke 89",
-        "Waktu muat data finansial terpangkas dari 4.2 detik ke 0.35 detik"
+        "Pemangkasan waktu pengurusan izin warga sebesar 85%",
+        "Diakses oleh lebih dari 1.8 juta warga terverifikasi",
+        "Memperoleh Penghargaan Inovasi Pelayanan Publik KemenPANRB"
       ],
-      tags: ["UI/UX Design", "Figma", "React", "TypeScript", "Tailwind", "Financial Analytics"],
-      liveUrl: "https://financehub-demo.example.com",
-      githubUrl: "https://github.com/ibadurrahman/financehub-saas"
+      tags: ["Citizen-Centric UX", "SPBE", "React", "TypeScript", "Single Sign-On"],
+      liveUrl: "https://layananpublik-demo.example.gov.id",
+      githubUrl: "https://github.com/ibadmukrom/portal-layanan-warga"
     },
     {
-      id: "nexus-ai",
-      title: "Nexus AI — Workflow Automation Studio",
-      category: "ai",
-      categoryName: "AI & Platform",
+      id: "dashboard-satu-data",
+      title: "Dashboard Eksekutif Satu Data Pemerintahan",
+      category: "satu-data",
+      categoryName: "Satu Data & Dashboard",
       image: "assets/images/project-ai.jpg",
-      summary: "Visual node-based canvas untuk orkestrasi model AI generatif, pengolahan pipeline data, dan integrasi prompt engineering tanpa kode.",
-      client: "AI Tech Startup (San Francisco)",
+      summary: "Pusat visualisasi data spasial dan analitik kinerja anggaran, penanganan stunting, dan capaian program prioritas untuk pimpinan.",
+      client: "Sekretariat Daerah / Bappeda",
       role: "Principal Product Designer & Prototyper",
-      timeline: "3 Bulan",
-      problem: "Pengembang dan analis non-teknis kesulitan merangkai prompt berantai dan menghubungkan berbagai API AI tanpa harus menulis skrip kode Python yang kompleks.",
-      solution: "Menciptakan canvas node-and-wire visual yang interaktif dengan minim cognitive load, auto-routing kabel koneksi, dan panel inspeksi prompt real-time.",
+      timeline: "4 Bulan",
+      problem: "Pimpinan daerah kesulitan memantau realisasi anggaran dan indikator kinerja dinas secara cepat karena data tersebar di berbagai spreadsheet terpisah.",
+      solution: "Merancang dasbor visual berkecepatan tinggi dengan peta geospasial interaktif, filter indikator prioritas, dan ringkasan eksekutif otomatis.",
       results: [
-        "Mendapatkan dana putaran Seed $2.5M setelah demo prototipe",
-        "92% pengguna non-programmer berhasil merilis workflow AI pertama dalam < 10 menit",
-        "Diadopsi oleh 1,200+ tim pengembang pada bulan pertama peluncuran"
+        "Akurasi dan kecepatan pengambilan keputusan pimpinan meningkat 4x lipat",
+        "Harmonisasi data antar 24 Organisasi Perangkat Daerah (OPD)",
+        "Zero-latency loading (< 0.5 detik) untuk dataset jutaan baris"
       ],
-      tags: ["Canvas UI", "Node Graph", "UX Research", "Figma", "Next.js", "Zustand"],
-      liveUrl: "https://nexus-ai-studio.example.com",
-      githubUrl: "https://github.com/ibadurrahman/nexus-ai-canvas"
+      tags: ["Dashboard Eksekutif", "Visualisasi Data", "Satu Data", "Next.js", "PostgreSQL"],
+      liveUrl: "https://satudata-demo.example.gov.id",
+      githubUrl: "https://github.com/ibadmukrom/satudata-executive-dashboard"
     },
     {
-      id: "nova-crypto",
-      title: "Nova Crypto — Smart Multi-Asset Wallet",
-      category: "mobile",
-      categoryName: "Mobile & Crypto",
+      id: "mobile-aspirasi",
+      title: "Sistem Pengaduan Aspirasi & Lapor Warga",
+      category: "mobile-gov",
+      categoryName: "Aspirasi & Mobile",
       image: "assets/images/project-mobile.jpg",
-      summary: "Aplikasi dompet digital mobile ramah pemula dengan fokus pada keamanan biometrik, visualisasi portofolio, dan konversi instan zero-fee.",
-      client: "Nova Blockchain Foundation",
-      role: "Senior UX Designer & Mobile Prototyper",
-      timeline: "5 Bulan",
-      problem: "Aplikasi crypto pada umumnya membingungkan pemula dengan terminologi teknis blockchain yang rumit dan konfirmasi transaksi yang rawan salah kirim.",
-      solution: "Menyederhanakan pengalaman pengguna melalui validasi alamat visual, simulasi estimasi gas-fee sebelum konfirmasi, dan tampilan kartu portofolio bernuansa glassmorphism elegan.",
+      summary: "Kanal pengaduan masyarakat berbasis mobile dengan penandaan lokasi GPS otomatis, verifikasi tindak lanjut dinas, dan transparansi publik.",
+      client: "Dinas Komunikasi dan Informatika",
+      role: "Senior UX Designer & Mobile Specialist",
+      timeline: "4 Bulan",
+      problem: "Laporan infrastruktur rusak atau keluhan warga lambat direspons dan seringkali tidak jelas dinas mana yang bertanggung jawab menanganinya.",
+      solution: "Aplikasi mobile pelaporan 3 langkah dengan auto-tagging instansi terkait berbasis kategori keluhan dan monitoring tindak lanjut berbatas waktu (SLA).",
       results: [
-        "Rating 4.9 di Apple App Store dan Google Play Store",
-        "Penurunan 88% tiket komplain terkait kesalahan transfer aset",
-        "500,000+ pengguna aktif bulanan (MAU) dalam kurun waktu 6 bulan"
+        "Penyelesaian aduan warga dipercepat dari 14 hari menjadi rata-rata 48 jam",
+        "91% tingkat kepuasan tindak lanjut dari masyarakat pelapor",
+        "Telah menangani lebih dari 250.000 laporan tervalidasi"
       ],
-      tags: ["Mobile UX", "iOS & Android", "Design System", "Figma", "Fintech", "Security"],
-      liveUrl: "https://nova-wallet.example.com",
-      githubUrl: "https://github.com/ibadurrahman/nova-crypto-wallet"
+      tags: ["Mobile UX", "Partisipasi Publik", "Tracking System", "Figma", "Keamanan Data"],
+      liveUrl: "https://laporwarga-demo.example.gov.id",
+      githubUrl: "https://github.com/ibadmukrom/lapor-warga-mobile"
     }
   ],
 
   education: [
     {
-      degree: "Sarjana Ilmu Komputer (S.Kom) / Informatics",
+      degree: "Sarjana Ilmu Komputer (S.Kom) / Teknik Informatika",
       institution: "Universitas Gadjah Mada (UGM)",
       period: "2012 — 2016",
-      details: "IPK 3.84 / 4.00 (Cum Laude). Fokus pada Human-Computer Interaction (HCI) dan Rekayasa Perangkat Lunak Web."
+      details: "IPK 3.84 / 4.00 (Cum Laude). Fokus pada Human-Computer Interaction (HCI) dan Rekayasa Perangkat Lunak Terdistribusi."
     }
   ],
 
   certifications: [
     {
+      title: "Sertifikasi Tata Kelola SPBE & Arsitektur Enterprise Pemerintahan",
+      issuer: "KemenPAN-RB / Lembaga Sertifikasi Profesi",
+      year: "2023",
+      credentialId: "SPBE-GOV-89410"
+    },
+    {
       title: "Nielsen Norman Group (NN/g) UX Master Certified",
       issuer: "Nielsen Norman Group",
-      year: "2023",
-      credentialId: "NNG-UX-84920"
-    },
-    {
-      title: "AWS Certified Solutions Architect — Associate",
-      issuer: "Amazon Web Services",
       year: "2022",
-      credentialId: "AWS-SAA-10398"
+      credentialId: "NNG-UXM-78214"
     },
     {
-      title: "Meta Certified Front-End Developer Professional",
-      issuer: "Meta / Coursera",
+      title: "BNSP Certified Lead Systems Analyst & Designer",
+      issuer: "Badan Nasional Sertifikasi Profesi (BNSP)",
       year: "2021",
-      credentialId: "META-FED-99214"
-    }
-  ],
-
-  testimonials: [
-    {
-      quote: "Ibad adalah tipe langka di industri teknologi: memiliki insting visual dan empati pengguna layaknya Principal Designer, namun mampu mengimplementasikannya ke dalam arsitektur kode frontend yang luar biasa rapi dan cepat.",
-      name: "Alexander Rey",
-      role: "VP of Product, Nexus Global",
-      avatar: "AR"
-    },
-    {
-      quote: "Bekerja sama dengan Ibad dalam merombak produk fintech kami adalah salah satu keputusan terbaik. Desain sistem yang ia ciptakan membuat siklus rilis fitur kami 2x lebih cepat dan konsisten di seluruh platform.",
-      name: "Siti Rahmawati",
-      role: "Chief Technology Officer, FinFlow",
-      avatar: "SR"
+      credentialId: "BNSP-IT-66023"
     }
   ],
 
   contact: {
-    title: "Tertarik Berkolaborasi?",
-    desc: "Saya terbuka untuk mendiskusikan peluang posisi Senior/Lead, konsultasi design system, maupun arsitektur produk digital Anda.",
-    buttonEmailText: "ibadurrahman.dev@gmail.com",
-    buttonPdfText: "Download PDF Resume"
+    title: "Konsultasi & Kolaborasi Transformasi Digital",
+    desc: "Siap mendukung perancangan sistem layanan publik yang lebih prima, modernisasi arsitektur SPBE, dan penguatan tata kelola data pemerintahan.",
+    buttonEmailText: "ibad.mukrom@gmail.com",
+    buttonPdfText: "Cetak / Simpan PDF Resume"
   }
 };
