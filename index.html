@@ -3,450 +3,173 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Muhammad Ibadurrahman — Senior UI/UX Designer & Full-Stack Engineer</title>
+  <title>Muhammad Ibadurrahman — Curriculum Vitae (1-Page)</title>
   
   <!-- SEO Meta Tags -->
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
-  <meta name="description" content="Portofolio & CV Profesional Muhammad Ibadurrahman: Senior UI/UX Designer & Full-Stack Engineer bergaya Neo-Brutalism modern, profesional, dan elegan.">
-  <meta name="keywords" content="UI/UX Designer, Senior Frontend Engineer, Full-Stack Developer, Design System, Figma, React, TypeScript, Neo-Brutalism, Portfolio, CV">
+  <meta name="description" content="Curriculum Vitae Profesional 1 Lembar: Muhammad Ibadurrahman — Senior UI/UX Designer & Full-Stack Engineer. Desain Neo-Brutalism elegan, ringkas, dan siap cetak A4.">
   <meta name="author" content="Muhammad Ibadurrahman">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://ibadurrahman.github.io/cv/">
 
-  <!-- Open Graph / Social Sharing -->
+  <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://ibadurrahman.github.io/cv/">
-  <meta property="og:title" content="Muhammad Ibadurrahman — Senior UI/UX Designer & Full-Stack Engineer">
-  <meta property="og:description" content="Human-centered design systems backed by resilient, scalable code.">
-  <meta property="og:image" content="assets/images/project-saas.jpg">
+  <meta property="og:title" content="Muhammad Ibadurrahman — Curriculum Vitae (1-Page)">
+  <meta property="og:description" content="Senior UI/UX Designer & Full-Stack Engineer. 1-Page Neo-Brutalist Resume.">
 
   <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
 
-  <!-- Neo-Brutalism Stylesheet -->
+  <!-- Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
-
-  <!-- JSON-LD Structured Data Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Muhammad Ibadurrahman",
-    "jobTitle": "Senior UI/UX Designer & Full-Stack Engineer",
-    "url": "https://ibadurrahman.github.io/cv/",
-    "sameAs": [
-      "https://github.com/ibadurrahman",
-      "https://linkedin.com/in/ibadurrahman"
-    ]
-  }
-  </script>
 </head>
 <body>
 
-  <!-- Top Neo-Brutalist Marquee Ticker -->
-  <div class="neo-marquee-wrap" aria-hidden="true">
-    <div class="neo-marquee-content">
-      ✦ SENIOR UI/UX DESIGNER ✦ FULL-STACK DEVELOPER ✦ DESIGN SYSTEMS & FIGMA TOKENS ✦ CORE WEB VITALS 100 ✦ BASED IN INDONESIA ✦ AVAILABLE FOR GLOBAL REMOTE ✦ SENIOR UI/UX DESIGNER ✦ FULL-STACK DEVELOPER ✦ DESIGN SYSTEMS & FIGMA TOKENS ✦ CORE WEB VITALS 100 ✦
+  <!-- ========================================================================
+       TOP FLOATING ACTION DOCK
+       ======================================================================== -->
+  <nav class="action-dock" aria-label="Aksi Cepat CV">
+    <div class="dock-left">
+      <span class="dock-badge">CV // 1-PAGE RESUME</span>
+      <span style="font-size: 0.85rem; font-weight: 700; color: var(--text-muted);" id="dock-status-text">Ready to Export / Print</span>
     </div>
-  </div>
+    <div class="dock-actions">
+      <!-- Copy Email -->
+      <button class="btn-dock action-copy-email" title="Salin alamat email">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+        <span>Salin Email</span>
+      </button>
+
+      <!-- Print / PDF A4 -->
+      <button class="btn-dock btn-dock-yellow action-print-cv" title="Cetak atau Simpan PDF 1 Lembar A4">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+        <span>Cetak / PDF A4</span>
+      </button>
+
+      <!-- Day / Night Toggle -->
+      <button class="btn-dock" id="theme-toggle-btn" title="Ganti Mode Tema">
+        <svg width="15" height="15" viewBox="0 0 24 24" id="theme-toggle-icon">
+          <path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
 
   <!-- ========================================================================
-       STICKY NAVBAR
+       THE 1-PAGE CV SHEET
        ======================================================================== -->
-  <header class="site-header">
-    <div class="container nav-container">
-      <a href="#hero" class="brand-badge-neo" aria-label="Beranda">
-        <div class="brand-logo-box">IB</div>
-        <div class="brand-title-group">
-          <span class="brand-name">Ibadurrahman</span>
-          <span class="brand-sub">UI/UX & FULL-STACK</span>
-        </div>
-      </a>
-
-      <!-- Desktop Nav -->
-      <nav aria-label="Navigasi Utama">
-        <ul class="nav-menu" id="nav-menu">
-          <li><a href="#hero" class="nav-link active">About</a></li>
-          <li><a href="#craft" class="nav-link">Craft</a></li>
-          <li><a href="#projects" class="nav-link">Projects</a></li>
-          <li><a href="#skills" class="nav-link">Skills</a></li>
-          <li><a href="#experience" class="nav-link">Career</a></li>
-          <li><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>
-      </nav>
-
-      <!-- Action Buttons -->
-      <div class="nav-actions">
-        <!-- Command Palette Trigger -->
-        <button class="btn-neo btn-neo-white btn-command-hint" id="command-palette-btn" title="Buka Command Palette (Cmd+K)">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-          <span style="font-family: var(--font-mono); font-size: 0.8rem;">⌘K</span>
-        </button>
-
-        <!-- Day / Night Theme Toggle -->
-        <button class="btn-neo-icon" id="theme-toggle-btn" title="Ganti Tema (Day / Night)">
-          <svg width="18" height="18" viewBox="0 0 24 24" id="theme-toggle-icon">
-            <path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </button>
-
-        <!-- Print PDF Button -->
-        <button class="btn-neo btn-neo-yellow action-print-cv" title="Simpan sebagai PDF / Cetak Resume">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
-          <span>PDF Resume</span>
-        </button>
-
-        <!-- Mobile Menu Hamburger -->
-        <button class="btn-neo-icon mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu Mobile">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-        </button>
+  <main class="cv-sheet" id="cv-paper">
+    
+    <!-- HEADER -->
+    <header class="sheet-header">
+      <div class="header-meta-left">
+        <h1 id="cv-name">Muhammad Ibadurrahman</h1>
+        <div class="header-role-badge" id="cv-role">SENIOR UI/UX DESIGNER & FULL-STACK ENGINEER</div>
+        <p class="header-bio-summary" id="cv-bio-summary">
+          Senior Product Designer & Full-Stack Developer dengan 8+ tahun pengalaman merancang sistem desain berskala enterprise dan arsitektur web modern yang performan. Spesialisasi dalam menjembatani riset pengguna, visual tokens, dan kode siap rilis.
+        </p>
       </div>
+
+      <div class="header-meta-right">
+        <div class="header-avatar-box">
+          <img src="assets/images/avatar.jpg" alt="Muhammad Ibadurrahman" id="cv-avatar">
+        </div>
+        <div class="header-status-tag">
+          <span class="dot"></span>
+          <span id="cv-status">AVAILABLE FOR WORK</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- CONTACT STRIP -->
+    <section class="contact-info-strip" id="cv-contact-strip" aria-label="Kontak dan Tautan">
+      <!-- Populated by app.js -->
+    </section>
+
+    <!-- 2-COLUMN MAIN CONTENT GRID -->
+    <div class="sheet-grid">
+      
+      <!-- LEFT COLUMN: STATS, SKILLS, EDUCATION & CERTS -->
+      <aside class="col-sidebar">
+        
+        <!-- Quick Stats -->
+        <div>
+          <span class="sec-title-neo yellow">Kinerja Karir</span>
+          <div class="metrics-mini-grid" id="cv-metrics-grid">
+            <!-- Populated by app.js -->
+          </div>
+        </div>
+
+        <!-- Skills Matrix -->
+        <div>
+          <span class="sec-title-neo mint">Kompetensi Inti</span>
+          <div class="skill-compact-group">
+            <div class="skill-group-heading">UI/UX & Product Design</div>
+            <div class="skill-tag-cloud" id="cv-design-skills">
+              <!-- Populated by app.js -->
+            </div>
+          </div>
+          <div class="skill-compact-group">
+            <div class="skill-group-heading">Frontend & Architecture</div>
+            <div class="skill-tag-cloud" id="cv-eng-skills">
+              <!-- Populated by app.js -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div>
+          <span class="sec-title-neo pink">Pendidikan Formal</span>
+          <div id="cv-education-list">
+            <!-- Populated by app.js -->
+          </div>
+        </div>
+
+        <!-- Certifications -->
+        <div>
+          <span class="sec-title-neo purple">Sertifikasi Resmi</span>
+          <div id="cv-certs-list">
+            <!-- Populated by app.js -->
+          </div>
+        </div>
+
+      </aside>
+
+      <!-- RIGHT COLUMN: WORK EXPERIENCE & SELECTED WORK -->
+      <section class="col-main">
+        
+        <!-- Experience -->
+        <div>
+          <span class="sec-title-neo yellow">Riwayat Pengalaman Kerja</span>
+          <div id="cv-experience-list">
+            <!-- Populated by app.js -->
+          </div>
+        </div>
+
+        <!-- Featured Projects Highlights -->
+        <div>
+          <span class="sec-title-neo mint">Studi Kasus & Proyek Pilihan</span>
+          <div class="projects-mini-grid" id="cv-projects-grid">
+            <!-- Populated by app.js -->
+          </div>
+        </div>
+
+      </section>
+
     </div>
-  </header>
-
-  <!-- ========================================================================
-       MAIN BODY
-       ======================================================================== -->
-  <main>
-    <!-- HERO SECTION -->
-    <section class="section" id="hero">
-      <div class="container">
-        <div class="hero-neo-grid">
-          
-          <!-- Left: Pitch & Bio Card -->
-          <div class="hero-main-card">
-            <div>
-              <div class="hero-status-pill">
-                <span class="hero-status-dot"></span>
-                <span id="status-badge-text">STATUS: AVAILABLE FOR SENIOR ROLES</span>
-              </div>
-
-              <h1 class="hero-headline">
-                Membangun produk digital presisi dengan sentuhan <span class="hero-highlight-tag">UI/UX & Kode Bersih</span>
-              </h1>
-
-              <p class="hero-bio-lead" id="hero-subtitle">
-                Senior Product Designer & Full-Stack Developer dengan 8+ tahun pengalaman merancang sistem desain berskala enterprise dan arsitektur web modern yang tangguh.
-              </p>
-
-              <div class="hero-cta-group">
-                <a href="#projects" class="btn-neo btn-neo-yellow">
-                  <span>Lihat Studi Kasus</span>
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
-
-                <button class="btn-neo btn-neo-white action-copy-email">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
-                  <span>Salin Email</span>
-                </button>
-
-                <button class="btn-neo btn-neo-cyan action-print-cv">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-                  <span>Download CV</span>
-                </button>
-              </div>
-            </div>
-
-            <!-- Bento Stats Numbers -->
-            <div class="hero-metrics-strip" id="hero-metrics-container">
-              <!-- Rendered by app.js -->
-            </div>
-          </div>
-
-          <!-- Right: Neo-Brutalist Profile Aside -->
-          <div class="hero-aside-card">
-            <div>
-              <div class="avatar-neo-frame">
-                <img src="assets/images/avatar.jpg" alt="Muhammad Ibadurrahman" id="avatar-image">
-                <div class="avatar-sticker-badge">8+ YRS EXP</div>
-              </div>
-
-              <div class="profile-neo-info">
-                <h2 id="profile-card-name">Muhammad Ibadurrahman</h2>
-                <span class="profile-role-tag" id="profile-card-title">Senior UI/UX Designer & Engineer</span>
-              </div>
-
-              <div class="profile-meta-pills">
-                <div class="meta-pill-neo">
-                  <span>Lokasi</span>
-                  <span id="profile-location-text">Indonesia (Remote)</span>
-                </div>
-                <div class="meta-pill-neo">
-                  <span>Waktu Lokal</span>
-                  <span id="live-clock-time">--:--:-- WIB</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="social-links-neo" id="profile-socials">
-              <!-- Rendered by app.js -->
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION: CRAFT & DISCIPLINES -->
-    <section class="section" id="craft">
-      <div class="container">
-        <div class="section-stamp-wrap">
-          <span class="section-stamp">FILOSOFI KERJA</span>
-          <h2 class="section-title-neo">The Intersection of Aesthetics & Architecture</h2>
-          <p class="section-desc-neo">
-            Setiap komponen visual dirancang berdasarkan data kegunaan riil dan dieksekusi dengan kode modular berstandar industri.
-          </p>
-        </div>
-
-        <div class="pillars-grid" id="bento-grid-container">
-          <!-- Rendered by app.js -->
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION: FEATURED CASE STUDIES -->
-    <section class="section" id="projects">
-      <div class="container">
-        <div class="section-stamp-wrap">
-          <span class="section-stamp">PORTOFOLIO TERPILIH</span>
-          <h2 class="section-title-neo">Production-Proven Case Studies</h2>
-          <p class="section-desc-neo">
-            Kumpulan proyek nyata berskala global yang telah memberikan dampak bisnis terukur dan adopsi jutaan pengguna.
-          </p>
-        </div>
-
-        <!-- Filter Pills -->
-        <div class="filter-pills-neo">
-          <button class="filter-pill active" data-filter="all">Semua Proyek (3)</button>
-          <button class="filter-pill" data-filter="saas">FinTech & SaaS</button>
-          <button class="filter-pill" data-filter="ai">AI & Automation</button>
-          <button class="filter-pill" data-filter="mobile">Mobile & Crypto</button>
-        </div>
-
-        <!-- Project Grid -->
-        <div class="projects-neo-grid" id="projects-grid-container">
-          <!-- Rendered by app.js -->
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION: SKILLS MATRIX -->
-    <section class="section" id="skills">
-      <div class="container">
-        <div class="section-stamp-wrap">
-          <span class="section-stamp">KOMPETENSI TEKNIS</span>
-          <h2 class="section-title-neo">Dual Mastery: Product Design × Full-Stack</h2>
-          <p class="section-desc-neo">
-            Kombinasi keahlian desain sistematis dan rekayasa kode siap rilis tanpa kompromi performa.
-          </p>
-        </div>
-
-        <div class="skills-neo-grid">
-          <!-- Design Card -->
-          <div class="skills-neo-card">
-            <div class="skills-neo-card-header">
-              <div class="skills-header-icon">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
-              </div>
-              <h3 style="font-size: 1.25rem; font-weight: 800;">UI/UX & Product Design</h3>
-            </div>
-            <div id="design-skills-list">
-              <!-- Rendered by app.js -->
-            </div>
-          </div>
-
-          <!-- Engineering Card -->
-          <div class="skills-neo-card">
-            <div class="skills-neo-card-header">
-              <div class="skills-header-icon cyan">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-              </div>
-              <h3 style="font-size: 1.25rem; font-weight: 800;">Frontend & Web Architecture</h3>
-            </div>
-            <div id="eng-skills-list">
-              <!-- Rendered by app.js -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION: CAREER TIMELINE -->
-    <section class="section" id="experience">
-      <div class="container">
-        <div class="section-stamp-wrap">
-          <span class="section-stamp">RIWAYAT KARIR</span>
-          <h2 class="section-title-neo">Work Experience</h2>
-          <p class="section-desc-neo">
-            Perjalanan memimpin perancangan desain dan arsitektur produk di berbagai platform teknologi.
-          </p>
-        </div>
-
-        <div class="experience-neo-list" id="experience-timeline-container">
-          <!-- Rendered by app.js -->
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION: EDUCATION & CERTIFICATIONS -->
-    <section class="section" id="credentials">
-      <div class="container">
-        <div class="section-stamp-wrap">
-          <span class="section-stamp">KREDENSIAL RESMI</span>
-          <h2 class="section-title-neo">Education & Certifications</h2>
-          <p class="section-desc-neo">
-            Fondasi akademik ilmu komputer dan sertifikasi profesional bertaraf global.
-          </p>
-        </div>
-
-        <div class="edu-cert-neo-grid">
-          <div class="edu-neo-card">
-            <h3 style="font-size: 1.25rem; font-weight: 800; margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.5rem;">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
-              <span>Pendidikan Formal</span>
-            </h3>
-            <div id="education-list">
-              <!-- Rendered by app.js -->
-            </div>
-          </div>
-
-          <div class="cert-neo-card">
-            <h3 style="font-size: 1.25rem; font-weight: 800; margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.5rem;">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
-              <span>Sertifikasi Terverifikasi</span>
-            </h3>
-            <div id="certifications-list">
-              <!-- Rendered by app.js -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION: CONTACT & HIRE ME BANNER -->
-    <section class="section" id="contact">
-      <div class="container">
-        <div class="cta-neo-card">
-          <h2>Tertarik Berkolaborasi?</h2>
-          <p>
-            Saya terbuka untuk mendiskusikan peluang posisi Senior/Lead, konsultasi design system, maupun arsitektur produk digital Anda.
-          </p>
-          <div class="cta-neo-buttons">
-            <button class="btn-neo btn-neo-white action-copy-email">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-              <span>ibadurrahman.dev@gmail.com</span>
-            </button>
-
-            <button class="btn-neo btn-neo-cyan action-print-cv">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
-              <span>Download PDF Resume</span>
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
   </main>
 
-  <!-- ========================================================================
-       FOOTER
-       ======================================================================== -->
-  <footer class="site-footer">
-    <div class="container footer-neo-flex">
-      <div>
-        <p>© 2026 Muhammad Ibadurrahman. Crafted with Neo-Brutalism.</p>
-        <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.2rem;">Hosted on GitHub Pages • Zero External Dependencies</p>
-      </div>
-      <div class="footer-links-neo">
-        <a href="#hero">Kembali ke Atas ↑</a>
-        <a href="https://github.com/ibadurrahman" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="https://linkedin.com/in/ibadurrahman" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      </div>
-    </div>
-  </footer>
-
-  <!-- ========================================================================
-       MODAL: CASE STUDY DETAIL VIEWER
-       ======================================================================== -->
-  <div class="modal-backdrop" id="case-study-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-    <div class="modal-window">
-      <button class="modal-close-neo" id="modal-close-btn" aria-label="Tutup modal">✕</button>
-      <img src="" alt="" id="modal-image" class="modal-hero-img">
-      <div class="modal-body-pad">
-        <h2 id="modal-title" style="font-size: 1.75rem; margin-bottom: 1.25rem;"></h2>
-
-        <div class="modal-meta-grid">
-          <div class="modal-meta-cell">
-            <span>Klien</span>
-            <span id="modal-client"></span>
-          </div>
-          <div class="modal-meta-cell">
-            <span>Peran Saya</span>
-            <span id="modal-role"></span>
-          </div>
-          <div class="modal-meta-cell">
-            <span>Durasi</span>
-            <span id="modal-timeline"></span>
-          </div>
-        </div>
-
-        <h3 class="modal-section-h3">Problem Statement</h3>
-        <p class="modal-p" id="modal-problem"></p>
-
-        <h3 class="modal-section-h3">Design & Engineering Solution</h3>
-        <p class="modal-p" id="modal-solution"></p>
-
-        <h3 class="modal-section-h3">Key Measurable Results</h3>
-        <ul class="modal-results-bullets" id="modal-results"></ul>
-
-        <h3 class="modal-section-h3">Tech Stack & Deliverables</h3>
-        <div class="pillar-tags-wrap" id="modal-tags" style="margin-bottom: 1.75rem;"></div>
-
-        <div style="display: flex; gap: 0.85rem; padding-top: 1.25rem; border-top: var(--border-solid);">
-          <a href="#" target="_blank" rel="noopener noreferrer" class="btn-neo btn-neo-yellow" id="modal-live-btn">
-            <span>Live Demonstration</span>
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" class="btn-neo btn-neo-white" id="modal-github-btn">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-            <span>GitHub Repository</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ========================================================================
-       COMMAND PALETTE (CMD+K)
-       ======================================================================== -->
-  <div class="cmd-palette-backdrop" id="command-palette" role="dialog" aria-modal="true" aria-label="Command Palette">
-    <div class="cmd-palette-box">
-      <div class="cmd-header">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        <input type="text" class="cmd-input" id="command-input" placeholder="Ketik perintah (misal: Projects, Career, PDF, Email)..." autocomplete="off" spellcheck="false">
-      </div>
-      <div class="cmd-list" id="command-list">
-        <!-- Rendered by app.js -->
-      </div>
-      <div class="cmd-footer">
-        <span>Tekan <kbd style="background: var(--bg-surface); padding: 0.1rem 0.35rem; border: 1.5px solid #000; border-radius: 4px;">Esc</kbd> untuk tutup</span>
-        <span>Neo-Brutalist Palette</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- ========================================================================
-       TOAST NOTIFICATION
-       ======================================================================== -->
+  <!-- Toast Notification -->
   <div class="toast-container" id="toast-notification" aria-live="polite">
     <div class="toast-message">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
       <span id="toast-text">Notifikasi</span>
     </div>
   </div>
 
-  <!-- JavaScript Engines -->
+  <!-- Scripts -->
   <script src="js/data.js"></script>
   <script src="js/app.js"></script>
 </body>
