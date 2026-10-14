@@ -154,8 +154,8 @@ function renderExperience() {
   const container = document.getElementById('cv-experience-list');
   if (!container || !CV_DATA.experience) return;
 
-  // Show top 3 recent experiences for compact 1-page fit
-  const topExp = CV_DATA.experience.slice(0, 3);
+  // Tampilkan 2 pengalaman utama/terpilih agar fokus & tidak membebani halaman
+  const topExp = CV_DATA.experience.slice(0, 2);
 
   container.innerHTML = topExp.map(exp => `
     <div class="exp-compact-item">
@@ -165,10 +165,10 @@ function renderExperience() {
       </div>
       <div class="exp-company-sub">${exp.company} • ${exp.location}</div>
       <ul class="exp-bullets">
-        ${exp.highlights.slice(0, 2).map(h => `<li>${h}</li>`).join('')}
+        ${exp.highlights.slice(0, 3).map(h => `<li>${h}</li>`).join('')}
       </ul>
       <div class="exp-tags-inline">
-        ${exp.technologies.slice(0, 5).map(t => `<span class="skill-badge-pill" style="font-size: 0.68rem; padding: 0.15rem 0.4rem;">${t}</span>`).join('')}
+        ${exp.technologies.slice(0, 6).map(t => `<span class="skill-badge-pill" style="font-size: 0.68rem; padding: 0.15rem 0.4rem;">${t}</span>`).join('')}
       </div>
     </div>
   `).join('');

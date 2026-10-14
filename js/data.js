@@ -102,19 +102,6 @@ const CV_DATA = {
         "Mengimplementasikan integrasi sistem pertukaran data terenkripsi antar-aplikasi dinas, mereduksi redundansi entri data ganda hingga 70%."
       ],
       technologies: ["Figma", "Vue.js", "Node.js", "PostgreSQL", "REST APIs", "Keamanan Siber"]
-    },
-    {
-      period: "2016 — 2019",
-      role: "Software Engineer & Public Service Web Developer",
-      company: "Unit Pengembangan Aplikasi Sistem Pemerintahan",
-      location: "Yogyakarta, Indonesia",
-      badge: "Pemerintahan",
-      description: "Mengembangkan aplikasi administrasi perkantoran digital, e-office, persuratan elektronik, dan portal informasi dinas.",
-      highlights: [
-        "Membangun 15+ aplikasi administrasi birokrasi berbasis web untuk efisiensi tata kelola persuratan dinas tanpa kertas (paperless).",
-        "Menjamin seluruh portal dinas lulus audit aksesibilitas dan keamanan informasi awal."
-      ],
-      technologies: ["JavaScript", "HTML5/CSS3", "PHP", "MySQL", "UI/UX Research"]
     }
   ],
 
